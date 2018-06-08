@@ -13,3 +13,7 @@ puts
 arreglo.each_with_index do |dato, indice|
   print '[ ', dato, '-', indice, ' ]  '
 end
+puts
+arreglo.each_with_index do |dato, indice|
+  print dato, ' ' if indice.even?
+end
