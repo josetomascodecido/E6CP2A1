@@ -10,3 +10,8 @@
 #    invertir el orden de los elementos en un arreglo.
 
 a = [1,2,3,9,1,4,5,2,3,6,6]
+a.delete_at(-1)
+print a
+a.delete_at(0)
+puts
+print a
