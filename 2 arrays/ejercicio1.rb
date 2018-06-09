@@ -6,7 +6,9 @@
 # 5. Mostrar en pantalla todos los elementos que se encuentren en una posicion p
 
 arreglo = [1, 2, 3, 9, 1, 4, 5, 2, 3, 6, 6]
+puts '01:'
 puts arreglo[0]
+puts '02:'
 puts arreglo[10]
 print arreglo
 puts
